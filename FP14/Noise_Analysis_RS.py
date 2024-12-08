@@ -249,7 +249,7 @@ def main(fname,options):
     emin = int(emin2 / bin_width)
     emax = int(emax2 / bin_width)
     model2 = Model(land)
-    fit2 = model2.fit(ydata2[emin:emax].astype(np.float), mpv = np.argmax(ydata2[emin:emax])*bin_width+emin, eta = 5, sigma = 4,
+    fit2 = model2.fit(ydaxta2[emin:emax].astype(np.float), mpv = np.argmax(ydata2[emin:emax])*bin_width+emin, eta = 5, sigma = 4,
                       A = np.amax(ydata2), x=xdata2[emin:emax].astype(np.float),
                       weights = 1/(yerr[emin:emax].astype(np.float)), scale_covar = False)
     print(fit2.fit_report())
