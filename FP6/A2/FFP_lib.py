@@ -1,7 +1,7 @@
 from uncertainties import unumpy as up
 import uncertainties
 import numpy as np
- 
+
 class FFP:
     def __init__(self, data, func, name = "no_name_given", save = True):
         self.__data = data
