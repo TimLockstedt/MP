@@ -1,0 +1,7 @@
+relative Verzögerung	Counts; S1 verzögerung 2ns, S2 Verzögerung Variabel
+10	155	3
+4	146	3
+1	148	3
+
+
+
