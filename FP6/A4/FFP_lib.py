@@ -3,7 +3,7 @@ import uncertainties
 import numpy as np
 
 class FFP:
-    def __init__(self, data, func, name = "no_name_given", save = True):
+    def __init__(self, data, func, name = "no_name_given", save = True): 
         self.__data = data
         self.__func = func
         self.__name = name
