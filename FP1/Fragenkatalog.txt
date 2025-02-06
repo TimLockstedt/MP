@@ -1,0 +1,73 @@
+Die Fragen zum Experiment sind größtenteils Stoff der Rechenmethoden, der experimentellen Vorlesungen und Praktika bis zum 5. Semester. Die restlichen Fragen sollten sie beantworten können, wenn Sie das Musterprotokoll (und ggf. das Skript zur Datenanalyse) sorgfältig gelesen haben.
+
+Mechanik
+
+Flugbahn des K-Atoms, Abhängigkeiten von den Parametern v, M, grad(B)
+
+Atomphysik
+
+Was ist ein Spin, welche Werte kann er annehmen?
+-+-1, +-1/2
+Warum ist der Drehimpuls des Kaliums (fast) der des Elektrons? Sind Kernspins wichtig?
+-erst hyperfeinstruktur ww (kern u elektron)<< spinbahnkopplung ww (Spin elektron, Bahndrehimpuls) J = S+L , L = 0, |L|= sqrt(l(l+1))h_quer, da s-Orbital folgt l = 0 -> L = 0 -> J = S
+Warum können Sie (nach dem Experiment) sicher sein, dass das Elektron Spin 1/2 hat?
+
+Was ist der Land'e Faktor g, was erwarten wir für g?
+-sagt wie stark ein Teilhen mit einem externes Magentischen Feld interargiert, wie freies elektron g = 2 (gyromagnetischer faktor)
+Was ist die Idee des Experiments?
+-Atome im inhomogernen magnetfeld, diese werden in 2 diskrete bahnen aufgespalten
+Statistik/Datenanalyse
+
+Wie berücksichtigt man den Einfluss der experimentellen Auflösung der Apparatur?
+
+Erklären Sie den Begriff Auflösungsfunktion an einem einfachen Beispiel.
+-umrechnung der messung zu physikalischem wert, messerte haben ein rauschen und unter dieser berücksichtigung jenes wird dies zurück projeziert  
+Die Messwerte des LT-Detektors schwanken stark, Messfehler sind jedoch schwer festlegbar. Wie können Sie trotzdem sinnvolle Fehler festlegen?
+
+Warum sollte bei einem Fit chi2 ungefähr Ndf sein?
+-sinn von reduced chi2 = chi2/Ndf = 1
+-bedeutet die streeung der Messerte um die Verteilungsfunktion 1 sigma entspricht
+Wie kann man die Fitgüte überprüfen? Ist das Chi^2 pro Freiheitsgrad eine sinnvolle Testgröße um diesen Fit zu überprüfen?
+p-Value, ist ein guter erster indikator
+Wie bestimmt man die Fehler von Fitparametern im Fit?
+Kovarrianzmatrix ??? --> d^2 chi2/d theta_i d theta_j
+Was bestimmt den systematischen Fehler von g?
+
+Thermodynamik
+
+Wie bestimmt sich die Besetzungsdichte von Zuständen unterschiedlicher Energie, was ist die Verteilung der Geschwindigkeit der Teilchen in Gasen?
+Bolzmann verteilung: exp(-E/(k_b T)), Maxwell Bolzmann: f(v) proportional zu v^2 exp(-mv^2/(2k_b T)) 
+Warum entspricht die Geschwindigkeitsverteilung im Kaliumstrahl nicht der im Ofen?
+umluft kühlt "mantel" des strahls stärker ab --> temp sinkt
+Bekommt man aus dem Experiment Information über die Geschwindigkeitsverteilung der K-Atome?
+
+Warum muss der Atomstrahl im Experiment nicht im thermischen Gleichgewicht sein?
+
+Wie kann man feststellen ob man im GG ist.
+
+Was erwartet man als Verteilung der Intensität als Funktion der Ablenkung? Warum?
+2 strahle ???
+Messtechnik
+
+Was ist ein PT100 Widerstand?
+Widerstandsthermomenter 
+Wie funktioniert der Langmuir Taylor Detektor im Prinzip.
+Elektrode im Plasma --> Ladung erzeugt Spannung, geschwindigkeit erzeugt Strom
+Wie (bei welcher Aufspaltung) misst man optimal die Aufspaltungsverteilung?
+
+Elektrodynamik
+
+Warum sind die Polschuhe im Experiment Zylinder- (Kreis-) förmig? (Rabbi Feld)
+
+Wie steht das B-Feld auf der Polschuhoberfläche, warum?
+senkrecht ???
+Warum ist der Feldgradient proportional zum Feld B?
+
+Warum ist der Gradient nahezu konstant?
+
+Könnten Sie das Feld einfach berechnen?
+
+Wie entmagnetisiert man einen Elektromagneten?
+Spannung aus, bzw langsam
+Warum muss man vor dem Umpolen des Feldes, nach dem Reduzieren des Feldes kurz warten?
+Magnetische hysterese, weißschen bezirke im ferromagnestischen stoff bleiben ausgerichtet, netto magnetisches moment != 0
